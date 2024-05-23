@@ -1,0 +1,10 @@
+class Editor{
+
+    constructor(){
+        
+    }
+
+     getEditorInstance(){
+
+    }
+}

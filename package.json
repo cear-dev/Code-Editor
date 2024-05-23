@@ -1,0 +1,20 @@
+{
+  "name": "simpli",
+  "version": "1.0.0",
+  "description": "Simpli is an open source code editor made with electron that can execute scripts made in Javascript, Python and Java.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron src/app.js",
+    "lint:fix": "eslint --ext .js src --fix"
+  },
+  "keywords": [],
+  "author": "Alonso González-Leal",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^21.2.2",
+    "monaco-editor": "^0.34.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0"
+  }
+}
